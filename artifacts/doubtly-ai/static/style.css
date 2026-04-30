@@ -1294,3 +1294,9 @@ html, body {
 }
 .pom-fab-btn:active { background: var(--bg-active); transform: scale(0.96); }
 .pom-fab-btn.running { border-color: var(--accent); color: var(--accent); }
+
+body {
+    /* Prevents the pull-to-refresh behavior on mobile */
+    overscroll-behavior-y: none;
+}
+
